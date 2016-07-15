@@ -1,0 +1,18 @@
+{
+    "projectName": "CRM",
+    "gitRepoUri": "ssh://git@git.sankuai.com/srt/srcrmserver.git",
+    "gitbranchName": "dev",
+
+    "portList": [
+        {
+           "port": 8088, 
+            "description": "crm server port"
+        }
+    ],
+    "needJavaDebugPort": "false",
+    "logFolder": "/opt/logs/srq/",
+    "needMountNodeLib": "false",
+    "needMountGradleLib": "true",
+
+    "deployScriptFile": "crm/deploy.sh"
+}
