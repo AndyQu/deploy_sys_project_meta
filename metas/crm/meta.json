@@ -9,10 +9,8 @@
             "description": "crm server port"
         }
     ],
-    "needJavaDebugPort": "false",
+    "needJavaDebugPort": 0,
     "logFolder": "/opt/logs/srq/",
-    "needMountNodeLib": "false",
-    "needMountGradleLib": "true",
-
-    "deployScriptFile": "crm/deploy.sh"
+    "needMountNodeLib": 0,
+    "needMountGradleLib": 1
 }

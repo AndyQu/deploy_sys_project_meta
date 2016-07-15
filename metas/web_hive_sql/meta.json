@@ -9,10 +9,8 @@
             "description": "spring boot port"
         }
     ],
-    "needJavaDebugPort": "false",
+    "needJavaDebugPort": 0,
     "logFolder": "/tmp/logs/web-hive-sql/",
-    "needMountNodeLib": "false",
-    "needMountGradleLib": "true",
-
-    "deployScriptFile": "web_hive_sql/deploy.sh"
+    "needMountNodeLib": 0,
+    "needMountGradleLib": 1
 }
